@@ -34,8 +34,11 @@ struct ContentView: View {
                         .padding(.horizontal, 40)
                         .foregroundColor(Color(red: 0.22, green: 0.114, blue: 0.165))
                     Button {
-                        welcomeScreenOpacity = 0
-                        homeScreenOpacity = 1
+                        withAnimation {
+                            welcomeScreenOpacity = 0
+                            homeScreenOpacity = 1
+                        }
+                        
                     } label: {
                         HStack(spacing: 105.0){
                             Text("Let's go!")
