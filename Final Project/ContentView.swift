@@ -46,15 +46,16 @@ struct ContentView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .frame(height: 360)
-                .background(Color(hue: 1.0, saturation: 0.061, brightness: 0.89).opacity(0.9))
+                .background(Color(hue: 1.0, saturation: 0.061, brightness: 0.8).opacity(0.9))
                 .cornerRadius(30)
                 .shadow(radius: 15)
             }
             .padding(30)
             .background(Image("swirly bg")
-                        .resizable(resizingMode: .tile)
-                        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-                        .ignoresSafeArea())
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(height: UIScreen.main.bounds.height)
+                .ignoresSafeArea())
             
         }
     }
