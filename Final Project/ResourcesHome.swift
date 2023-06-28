@@ -10,12 +10,17 @@ import SwiftUI
 struct ResourcesHome: View {
     var body: some View {
         NavigationStack {
-            
-            VStack {
-                Text("This is the resources page :)")
+            List {
+                NavigationLink(destination: ResourcesHome()) {
+                    VStack {
+                        Text("This is such a snazzy title")
+                    }
+                }
+                
+                
             }
             .navigationTitle("Resources")
-            .navigationBarHidden(true)
+            
             
         }
         .navigationBarBackButtonHidden(true)
