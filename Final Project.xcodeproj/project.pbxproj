@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5831382A4CE001001B6EF3 /* WhatIsAPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5831372A4CE001001B6EF3 /* WhatIsAPeriod.swift */; };
+		BD78D3A52A4CCD1200260AAB /* ResourceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78D3A42A4CCD1200260AAB /* ResourceTemplate.swift */; };
 		BD95767A2A4BB9C1007ED44F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9576792A4BB9C1007ED44F /* Tabs.swift */; };
 		BD95767C2A4BB9DD007ED44F /* ResourcesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95767B2A4BB9DD007ED44F /* ResourcesHome.swift */; };
 		BD9576802A4BBA24007ED44F /* ForumHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95767F2A4BBA23007ED44F /* ForumHome.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5831372A4CE001001B6EF3 /* WhatIsAPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsAPeriod.swift; sourceTree = "<group>"; };
+		BD78D3A42A4CCD1200260AAB /* ResourceTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTemplate.swift; sourceTree = "<group>"; };
 		BD9576792A4BB9C1007ED44F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		BD95767B2A4BB9DD007ED44F /* ResourcesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesHome.swift; sourceTree = "<group>"; };
 		BD95767F2A4BBA23007ED44F /* ForumHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumHome.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				BDED17E82A4A095F00990299 /* ContentView.swift */,
 				BD9576792A4BB9C1007ED44F /* Tabs.swift */,
 				BD95767B2A4BB9DD007ED44F /* ResourcesHome.swift */,
+				BD78D3A42A4CCD1200260AAB /* ResourceTemplate.swift */,
+				BD5831372A4CE001001B6EF3 /* WhatIsAPeriod.swift */,
 				BD95767F2A4BBA23007ED44F /* ForumHome.swift */,
 				BDED17EA2A4A096000990299 /* Assets.xcassets */,
 				BDED17EC2A4A096000990299 /* Preview Content */,
@@ -147,10 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDED17E92A4A095F00990299 /* ContentView.swift in Sources */,
+				BD78D3A52A4CCD1200260AAB /* ResourceTemplate.swift in Sources */,
 				BDED17E72A4A095F00990299 /* Final_ProjectApp.swift in Sources */,
 				BD9576802A4BBA24007ED44F /* ForumHome.swift in Sources */,
 				BD95767C2A4BB9DD007ED44F /* ResourcesHome.swift in Sources */,
 				BD95767A2A4BB9C1007ED44F /* Tabs.swift in Sources */,
+				BD5831382A4CE001001B6EF3 /* WhatIsAPeriod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

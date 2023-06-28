@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var welcomeScreenOpacity: Double = 1
+    @State var homeScreenOpacity: Double = 0
+    
     var body: some View {
-        NavigationStack {
-            
+        
+        ZStack {
+            //welcome screen begins
             VStack(spacing: 50.0) {
                 VStack {
                     Image("blood icon")
@@ -28,8 +33,9 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 40)
                         .foregroundColor(Color(red: 0.22, green: 0.114, blue: 0.165))
-                    NavigationLink {
-                        Tabs()
+                    Button {
+                        welcomeScreenOpacity = 0
+                        homeScreenOpacity = 1
                     } label: {
                         HStack(spacing: 105.0){
                             Text("Let's go!")
@@ -56,8 +62,24 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(height: UIScreen.main.bounds.height)
                 .ignoresSafeArea())
+            .opacity(welcomeScreenOpacity)
+            //welcome screen ends
             
+            //home page begins
+            TabView {
+                ResourcesHome()
+                    .tabItem {
+                        Label("Resources", systemImage: "drop")
+                    }
+                ForumHome()
+                    .tabItem {
+                        Label("Forum", systemImage: "person.2")
+                    }
+            }
+            .opacity(homeScreenOpacity)
+            //home page ends
         }
+        
     }
 }
 
