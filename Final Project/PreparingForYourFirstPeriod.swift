@@ -1,22 +1,22 @@
 //
-//  WhatIsAPeriod.swift
+//  PreparingForYourFirstPeriod.swift
 //  Final Project
 //
-//  Created by Scholar on 6/28/23.
+//  Created by Scholar on 6/29/23.
 //
 
 import SwiftUI
 
-struct WhatIsAPeriod: View {
+struct PreparingForYourFirstPeriod: View {
     
-    @State var pageTitle: String = "What is a Period?"
+    @State var pageTitle: String = "Your First Period"
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 30.0) {
-                    Text("This article provides a brief overview of what a period is.")
-                            .font(.caption)
+                    Text("How should your prepare for your first period? This article provides some helpful tips and resources.")
+                        .font(.caption)
                     Image("period products image")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -40,8 +40,8 @@ A menstruation cycle is the number of days starting from the start of her period
     }
 }
 
-struct WhatIsAPeriod_Previews: PreviewProvider {
+struct PreparingForYourFirstPeriod_Previews: PreviewProvider {
     static var previews: some View {
-        WhatIsAPeriod()
+        PreparingForYourFirstPeriod()
     }
 }

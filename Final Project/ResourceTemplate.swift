@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ResourceTemplate: View {
+    
+    @State var pageTitle: String = "Article Title"
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -33,7 +36,7 @@ struct ResourceTemplate: View {
             }
             .padding()
             .padding(.bottom, 60.0)
-            .navigationTitle("Cool Title Here")
+            .navigationBarTitle(pageTitle, displayMode: .large)
             .offset(y: -10)
             .edgesIgnoringSafeArea(.bottom)
         }

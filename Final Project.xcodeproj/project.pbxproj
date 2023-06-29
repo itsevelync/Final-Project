@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5256B72A4DFA7B00670434 /* PreparingForYourFirstPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5256B62A4DFA7B00670434 /* PreparingForYourFirstPeriod.swift */; };
 		BD5831382A4CE001001B6EF3 /* WhatIsAPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5831372A4CE001001B6EF3 /* WhatIsAPeriod.swift */; };
 		BD78D3A52A4CCD1200260AAB /* ResourceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78D3A42A4CCD1200260AAB /* ResourceTemplate.swift */; };
 		BD95767A2A4BB9C1007ED44F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9576792A4BB9C1007ED44F /* Tabs.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5256B62A4DFA7B00670434 /* PreparingForYourFirstPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparingForYourFirstPeriod.swift; sourceTree = "<group>"; };
 		BD5831372A4CE001001B6EF3 /* WhatIsAPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsAPeriod.swift; sourceTree = "<group>"; };
 		BD78D3A42A4CCD1200260AAB /* ResourceTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTemplate.swift; sourceTree = "<group>"; };
 		BD9576792A4BB9C1007ED44F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				BD95767B2A4BB9DD007ED44F /* ResourcesHome.swift */,
 				BD78D3A42A4CCD1200260AAB /* ResourceTemplate.swift */,
 				BD5831372A4CE001001B6EF3 /* WhatIsAPeriod.swift */,
+				BD5256B62A4DFA7B00670434 /* PreparingForYourFirstPeriod.swift */,
 				BD95767F2A4BBA23007ED44F /* ForumHome.swift */,
 				BDED17EA2A4A096000990299 /* Assets.xcassets */,
 				BDED17EC2A4A096000990299 /* Preview Content */,
@@ -159,6 +162,7 @@
 				BD95767C2A4BB9DD007ED44F /* ResourcesHome.swift in Sources */,
 				BD95767A2A4BB9C1007ED44F /* Tabs.swift in Sources */,
 				BD5831382A4CE001001B6EF3 /* WhatIsAPeriod.swift in Sources */,
+				BD5256B72A4DFA7B00670434 /* PreparingForYourFirstPeriod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
