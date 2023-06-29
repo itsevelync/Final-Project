@@ -62,7 +62,7 @@ struct ResourcesHome: View {
                             }
                             
                             NavigationLink {
-                                PreparingForYourFirstPeriod()
+                                FeminineHygieneProducts()
                             } label: {
                                 HStack {
                                     Image(systemName: "shippingbox.fill")
@@ -78,7 +78,7 @@ struct ResourcesHome: View {
                             }
                             
                             NavigationLink {
-                                PreparingForYourFirstPeriod()
+                                PMS()
                             } label: {
                                 HStack {
                                     Image(systemName: "person.wave.2.fill")
@@ -94,7 +94,7 @@ struct ResourcesHome: View {
                             }
                             
                             NavigationLink {
-                                PreparingForYourFirstPeriod()
+                                FAQs()
                             } label: {
                                 HStack {
                                     Image(systemName: "questionmark.bubble.fill")

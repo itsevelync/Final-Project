@@ -17,7 +17,7 @@ struct WhatIsAPeriod: View {
                 VStack(alignment: .leading, spacing: 30.0) {
                     Text("This article provides a brief overview of what a period is.")
                             .font(.caption)
-                    Image("period products image")
+                    Image("period")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(20)

@@ -22,9 +22,9 @@ struct PreparingForYourFirstPeriod: View {
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(20)
                     Text("""
-A period, or menstruation, is normal vaginal bleeding as part of a woman’s monthly cycle that can last from around 4-8 days. If you want to get technical, it is when your body sheds the buildup of the lining of your uterus (womb). This part of your reproductive system prepares your body for a possible pregnancy.
+A period, or menstruation, is normal vaginal Make sure you’re stocked up on feminine hygiene products! This can include disposable pads, pantiliners, reusable pads, tampons, and menstrual cups. Many girls prefer to start with pads because they’re easy to use. Your preference can change overtime. Ultimately, whatever products are most comfortable for you work best!
 
-A menstruation cycle is the number of days starting from the start of her period to the start of the next. You might hear that this is a 28-day cycle, but that’s just an average! Cycle lengths can vary between 24 and 38 days, and each month can be different and/or unpredictable. On average, women have periods for about 40 years of their life.
+If you get your period at school, ask your school nurse or teacher for a menstrual product. When away from home, keep a period kit in your backpack/bag containing a few pads/tampons, a clean pair of underwear, and a zip lock bag for dirty underwear. 
 """)
                 }
                 .frame(maxWidth: .infinity)
