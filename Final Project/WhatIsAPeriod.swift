@@ -15,7 +15,7 @@ struct WhatIsAPeriod: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 30.0) {
-                    Text("This article provides a brief overview of what a period is.")
+                    Text("Here's a brief overview of what a period is!")
                             .font(.caption)
                     Image("period")
                         .resizable()

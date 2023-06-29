@@ -15,7 +15,7 @@ struct PreparingForYourFirstPeriod: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 30.0) {
-                    Text("How should your prepare for your first period? This article provides some helpful tips and resources.")
+                    Text("Wondering how to prepare for your first period? Here are some helpful tips and resources!")
                         .font(.caption)
                     Image("period products image")
                         .resizable()

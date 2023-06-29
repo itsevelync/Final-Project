@@ -15,7 +15,7 @@ struct FeminineHygieneProducts: View  {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
-                    Text("Here are a list of possible feminine hygiened products to suit your needs.")
+                    Text("Unsure of what to use while on your period? Here is a list of possible feminine hygiene products to suit your needs!")
                             .font(.caption)
                     Image("period products image")
                         .resizable()

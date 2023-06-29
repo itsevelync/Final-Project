@@ -14,11 +14,12 @@ struct PMS: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 30) {
-                    Text("This is a quick overview/description of the article. dfvdfvsdfvsdfv dfvsdfv sdfv ")
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("Struggling with your body's physical and emotional changes? Here are some suggestions on how to deal with them!")
                             .font(.caption)
                     Image("pms")
                         .resizable()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 10)
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(20)
                     Text("Dietary Changes")
