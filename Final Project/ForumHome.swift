@@ -12,10 +12,16 @@ struct ForumHome: View {
         NavigationStack {
             
             VStack {
-                Text("This is the forum :)")
+                Image("forum image")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    
+                Text("This page is currently under construction. Check back later! :)")
+                    .multilineTextAlignment(.center)
             }
             .navigationTitle("Forum")
             .navigationBarHidden(true)
+            .padding(20)
             
         }
         .navigationBarBackButtonHidden(true)

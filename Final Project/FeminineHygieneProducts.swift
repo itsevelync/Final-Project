@@ -21,45 +21,66 @@ struct FeminineHygieneProducts: View  {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(20)
-                    
-                    Text("Pads")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    List {
-                        Text("General – Always Radiant Teen Pads, Pinkie Period Pads, U by Kotex Security Ultra Thin")
-                        Text("Overnight Pads – Always Ultra Thin Pads Size 4 Overnights")
-                        Text("Variety Pack of Pads – Asana Girl Unscented Pads")
-                        Text("Fitness Pads – U by Kotex Fitness Ultra Thin Pads")
-                    }
-                    .listStyle(.plain)
-                    .frame(height: 280)
-                    Text("**Consider pads with organic cotton, absorbency, odor and bacterial control")
-                    
-                    Text("Heating Pads")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    List {
-                        Text("Weighted – Sharper Image Calming Heat Weighted Heating Pad, $90")
-                        Text("Rechargeable – Sunbeam GoHeat Cordless Heating Pad, $85")
-                        Text("On a Budget – Attmu Classic Rubber Transparent Hot Water Bottle, $12")
-                        Text("Washable – Geniani Extra Large Electric Heating Pad, $30")
-                        Text("Adhesive – Rael Heating Patch for Menstrual Cramps, $12")
-                    }
-                    .listStyle(.plain)
-                    .frame(height: 330)
-                    
-                    Text("Tampons")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    List {
-                        Text("Tampax Pearl Light, U by Kotex Security Tampons, Playtex Simply Gentle Glide, Playtex Sport Tampons with Flex-Fit Technology")
-                    }
-                    .listStyle(.plain)
-                    .frame(height: 110)
-                    
-                    Text("Supplements")
-                        .font(.title2)
-                        .fontWeight(.bold)
+                    Group {
+                        Text("Pads")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .padding()
+                            .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                            .cornerRadius(5)
+                        List {
+                            Text("General – Always Radiant Teen Pads, Pinkie Period Pads, U by Kotex Security Ultra Thin")
+                            Text("Overnight Pads – Always Ultra Thin Pads Size 4 Overnights")
+                            Text("Variety Pack of Pads – Asana Girl Unscented Pads")
+                            Text("Fitness Pads – U by Kotex Fitness Ultra Thin Pads")
+                        }
+                        .listStyle(.plain)
+                        .frame(height: 280)
+                        Text("**Consider pads with organic cotton, absorbency, odor and bacterial control")
+                    } //pads
+                    Group {
+                        Text("Heating Pads")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .padding()
+                            .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                            .cornerRadius(5)
+                        List {
+                            Text("Weighted – Sharper Image Calming Heat Weighted Heating Pad, $90")
+                            Text("Rechargeable – Sunbeam GoHeat Cordless Heating Pad, $85")
+                            Text("On a Budget – Attmu Classic Rubber Transparent Hot Water Bottle, $12")
+                            Text("Washable – Geniani Extra Large Electric Heating Pad, $30")
+                            Text("Adhesive – Rael Heating Patch for Menstrual Cramps, $12")
+                        }
+                        .listStyle(.plain)
+                        .frame(height: 330)
+                    } //heating pads
+                    Group {
+                        Text("Tampons")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .padding()
+                            .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                            .cornerRadius(5)
+                        List {
+                            Text("Tampax Pearl Light, U by Kotex Security Tampons, Playtex Simply Gentle Glide, Playtex Sport Tampons with Flex-Fit Technology")
+                        }
+                        .listStyle(.plain)
+                        .frame(height: 110)
+                    } //tampons
+                    Group {
+                        Text("Supplements")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .padding()
+                            .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                            .cornerRadius(5)
+                        List {
+                            Text("Tampax Pearl Light, U by Kotex Security Tampons, Playtex Simply Gentle Glide, Playtex Sport Tampons with Flex-Fit Technology")
+                        }
+                        .listStyle(.plain)
+                        .frame(height: 110)
+                    } //supplements
                 }
                 .frame(maxWidth: .infinity)
                 Spacer()

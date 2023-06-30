@@ -17,7 +17,7 @@ struct PreparingForYourFirstPeriod: View {
                 VStack(alignment: .leading, spacing: 30.0) {
                     Text("Wondering how to prepare for your first period? Here are some helpful tips and resources!")
                         .font(.caption)
-                    Image("period products image")
+                    Image("firstperiod")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(20)

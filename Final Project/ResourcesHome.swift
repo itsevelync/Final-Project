@@ -24,7 +24,7 @@ struct ResourcesHome: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("AccentColor"))
                             
-                            Text("here is a wildly cool and wonderfully amazing subtitle wow it's so cool")
+                            Text("Click on the buttons below to find resources about your period!")
                                 .multilineTextAlignment(.center)
                                 .foregroundColor(Color(red: 0.769, green: 0.302, blue: 0.31))
                         }
@@ -117,6 +117,8 @@ struct ResourcesHome: View {
                     
                     
                 }
+                .navigationTitle("Resources")
+                .navigationBarHidden(true)
                                 
     //            List {
     //                NavigationLink(destination: WhatIsAPeriod()) {
