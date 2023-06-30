@@ -19,12 +19,15 @@ struct PMS: View {
                             .font(.caption)
                     Image("pms")
                         .resizable()
-                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 10)
+                        .border(Color(hue: 0.998, saturation: 0.546, brightness: 0.871), width: 10)
                         .aspectRatio(contentMode: .fit)
-                        .cornerRadius(20)
+                        .cornerRadius(10)
                     Text("Dietary Changes")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("""
 • Eat a diet rich in complex carbohydrates. This diet may reduce mood symptoms and food cravings. Complex carbohydrates are found in foods made with whole grains (ex. whole wheat bread, pasta, and cereals, barley, brown rice, beans, and lentils).
 
@@ -39,11 +42,17 @@ struct PMS: View {
                     Text("Exercise")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("Physical activity will lift your mood and help you feel more energized for those days when you feel tired! A healthy weight can also prevent the risk of sleep problems during your period. So try taking a short walk around your neighborhood or in a nearby park!")
                     
                     Text("Supplements")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("""
 Different vitamins and minerals can also help ease PMS symptoms. Some popular examples include vitamin B6 (for energy), vitamin D (for mood lifting) and magnesium (for PMS-induced headaches). There are many nutrients that can make a difference to alleviate PMS!
 
@@ -53,6 +62,9 @@ Make sure to consult with a healthcare professional before introducing supplemen
                     Text("Relax")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("""
 Have mood swings? Are you constantly stressed out? Some ways of reducing that stress include relaxation techniques like breathing exercises, meditation, and yoga. Massage therapy is another form of relaxation therapy that you may want to try.
 """)

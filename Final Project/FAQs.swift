@@ -25,6 +25,9 @@ struct FAQs: View {
                     Text("Irregular Periods?")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("""
 Your period is irregular if:
 • it comes more frequently than 21 days
@@ -37,11 +40,17 @@ Do you have irregular periods? Don’t worry! Irregular periods are very common,
                     Text("What if I skip a period?")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("This is completely normal, especially in a girl’s first few years of getting her period. Some reasons for skipping a period include stress, exercise, sickness, a gain/loss of a lot of weight, & pregnancy. ⚠️ If you skip more than two in a row, you should talk to your doctor.")
                     
                     Text("Is my period too heavy?")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("""
 Think you’re losing a lot of blood? Maybe TOO MUCH blood?? Well, it’s probably not as much as it seems. Most women lose about 3-4 tablespoons of blood each period.
 ⚠️ If you use more than 10 pads/tampons a day or are soaking through a tampon or pad every hour, you should talk to your doctor.
@@ -49,6 +58,10 @@ Think you’re losing a lot of blood? Maybe TOO MUCH blood?? Well, it’s probab
                     
                     Text("How often should I change my feminine hygiene product?")
                         .font(.title2)
+                        .fontWeight(.bold)
+                        .padding()
+                        .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
+                        .cornerRadius(5)
                     Text("""
 • Most women change their pads every few hours
 • A tampon should not be worn for more than 8 hours
