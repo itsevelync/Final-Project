@@ -114,11 +114,11 @@ struct ResourcesHome: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color(hue: 0, saturation: 0, brightness: 1))
                     .foregroundColor(Color("AccentColor"))
-                    
+                    .navigationTitle("Resources")
+                    .navigationBarHidden(true)
                     
                 }
-                .navigationTitle("Resources")
-                .navigationBarHidden(true)
+                
                                 
     //            List {
     //                NavigationLink(destination: WhatIsAPeriod()) {
