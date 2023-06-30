@@ -28,7 +28,7 @@ struct ContentView: View {
                         .foregroundColor(Color(red: 1, green: 0.62, blue: 0.62))
                 }
                 VStack(spacing: 30.0) {
-                    Text("Welcome! Code Red is an app for anyone and everyone entering puberty who has questions about their changing body. We have resources for periods, pimples, and everything in between!")
+                    Text("Welcome! Code Red is an app for anyone and everyone entering puberty who has questions about their changing body. We have resources for periods products, preparing for your first period, and everything in between!")
                         .font(.title3)
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 40)
