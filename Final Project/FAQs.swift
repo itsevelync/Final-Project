@@ -56,17 +56,13 @@ Think you’re losing a lot of blood? Maybe TOO MUCH blood?? Well, it’s probab
 ⚠️ If you use more than 10 pads/tampons a day or are soaking through a tampon or pad every hour, you should talk to your doctor.
 """)
                     
-                    Text("How often should I change my feminine hygiene product?")
+                    Text("Does using a tampon hurt?")
                         .font(.title2)
                         .fontWeight(.bold)
                         .padding()
                         .border(Color(red: 0.977, green: 0.611, blue: 0.615), width: 7)
                         .cornerRadius(5)
-                    Text("""
-• Most women change their pads every few hours
-• A tampon should not be worn for more than 8 hours
-• Menstrual cups & sponges should be washed at least 2x per day (ideally every 4-8 hours)
-""")
+                    Text("Don’t worry! Your vagina is made to stretch (think of childbirth), so putting a tampon in should not hurt, but it may feel a little uncomfortable when doing it for the first time. If it does hurt, it usually means that something’s not quite right. If it’s your first time, make sure not to force it in!")
                     
                     
                     
